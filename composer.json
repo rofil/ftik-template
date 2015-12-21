@@ -1,0 +1,12 @@
+{
+    "name": "rofilde/ftik-template",
+    "description": "Template for FTIK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rofilde Hasudungan",
+            "email": "rofilde.hasudungan@gmail.com"
+        }
+    ],
+    "require": {}
+}
