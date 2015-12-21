@@ -1,10 +1,10 @@
 <?php
 
-namespace Rofil\FTIK;
+namespace Rofil\BootstrapTemplate;
 
 use Illuminate\Support\ServiceProvider;
 
-class RofilFTIKServiceProvider extends ServiceProvider
+class RofilBootstrapTemplateServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
@@ -13,8 +13,8 @@ class RofilFTIKServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/Resources/views', 'RofilFTIK');
-        $this->publishes([__DIR__.'/public'=>public_path("rofil-ftik")], 'public');
+        $this->loadViewsFrom(__DIR__.'/Resources/views', 'RofilBT');
+        $this->publishes([__DIR__.'/public'=>public_path("rofil-bootstrap-template")], 'public');
     }
 
     /**
