@@ -20,3 +20,5 @@ Tambahkan baris berikut pada `providers` pada `app.php`:
 ```
     php artisan vendor:publish rofilde/bootstrap-template
 ```
+
+Menggunakan perintah diatas, maka asset dari template dapat dipublished pada direktori config dan public
