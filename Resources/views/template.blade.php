@@ -17,12 +17,12 @@
 
 	<div class="container">
 		@section("header")
-			<h1>Template</h1>
+			<h1>Rofil Bootstrap Template</h1>
 		@show
 	</div>
 
 	@section("navigation")
-		@include("RofilFTIK::nav")
+		@include("RofilBT::nav")
 	@show
 
 	<div class="container">
@@ -32,11 +32,11 @@
 	</div>
 
 	<div class="container">
-		<div class="text-center">
-			@section("footer")
-				Copyright &copy; {{ date("Y") }} by Rofilde Hasudungan. All Right Reserved.
-			@show	
+		@section("footer")
+		<div class="text-center" style="border:1px solid #ccc; border-radius:4px;padding:20px; margin-top:15px">
+			Copyright &copy; {{ date("Y") }} by Rofilde Hasudungan. All Right Reserved.
 		</div>
+		@show	
 		
 	</div>
 	

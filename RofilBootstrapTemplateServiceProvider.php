@@ -15,6 +15,7 @@ class RofilBootstrapTemplateServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/Resources/views', 'RofilBT');
         $this->publishes([__DIR__.'/public'=>public_path("rofil-bootstrap-template")], 'public');
+        $this->publishes([__DIR__.'/config/navigation.php'=>config_path("navigation.php")], 'config');
     }
 
     /**
